@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--<style name="MyDialogStyle" parent="android:Theme_Holo_Dialog">
+        <item name="android:titleTextColor">@color/title_text_color</item>
+    </style>-->
+</resources>

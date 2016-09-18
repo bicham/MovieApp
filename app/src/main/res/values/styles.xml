@@ -1,0 +1,76 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!-- SettingActivity styles -->
+
+
+    <style name="SettingsActivityTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+
+
+    </style>
+
+
+    <style name="MyDialogStyle" >
+        <item name="android:title">Select</item>
+
+        <item name="android:textColor">@color/white</item>
+
+        
+    </style>
+
+    <style name="Theme.YourTheme" parent="@android:style/Theme.Holo.Dialog">
+
+        <item name="android:alertDialogTheme">@style/Theme_Holo_Dialog_Alert</item>
+    </style>
+
+    <!--parent="android:Theme.Holo.Dialog"-->
+
+
+
+
+
+    <style name="Theme_Holo_Dialog_Alert" >
+        <item name="android:windowTitleStyle">@style/DialogWindowTitle_Holo</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowMinWidthMajor">@android:dimen/dialog_min_width_major</item>
+        <item name="android:windowMinWidthMinor">@android:dimen/dialog_min_width_minor</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.Holo.DialogWindowTitle</item>
+        <item name="android:actionMenuTextColor">@color/colorAccent</item>
+
+    </style>
+
+    <!-- Local copy of android:DialogWindowTitle.Holo -->
+    <style name="DialogWindowTitle_Holo">
+        <item name="android:maxLines">1</item>
+        <item name="android:scrollHorizontally">true</item>
+
+    </style>
+
+
+    <style name="list_choice">
+
+    </style>
+
+
+
+
+
+
+
+</resources>

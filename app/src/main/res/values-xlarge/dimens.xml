@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size">50sp</dimen>
+    <dimen name="trailer_title">20sp</dimen>
+    <dimen name="trailer_second_title">15sp</dimen>
+</resources>

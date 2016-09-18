@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_first_screan"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ahmed.movieapp.FirstScrean">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/ic_splash4">
+
+        <LinearLayout
+            android:id="@+id/welcome_text"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/movie"/>
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome to Movie app "
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            android:gravity="center"
+            android:textStyle="bold"/>
+     </LinearLayout>
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>
